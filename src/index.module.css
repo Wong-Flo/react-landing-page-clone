@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: rgba(209, 202, 241, 0.3);
+  --color-text-section1: rgb(255, 255, 255);
+  --container-max: 1000px;
+}
+
+body {
+  background: var(--color-background);
+}

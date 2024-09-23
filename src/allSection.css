@@ -1,0 +1,8 @@
+#sectionOne {
+  background: linear-gradient(165deg, blue, blueviolet, purple);
+  padding: 2rem;
+  width: 99%;
+  margin: 2.5%;
+  border-radius: 12px;
+  color: var(--color-text-section1);
+}
