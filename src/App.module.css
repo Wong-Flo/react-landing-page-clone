@@ -3,20 +3,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 95%;
-  max-width: var(--container-max);
-  background-color: white; /* var(--color-background) */
+  background-color: grey;
 }
 header {
-  border: 1px solid red;
-  max-width: var(--container-max);
   margin: 0 auto;
   display: flex;
+  align-items: center;
+  padding-bottom: 5rem;
 }
 nav,
 ul,
 a {
   display: flex;
-  color: inherit;
+  color: white;
   list-style: none;
+  gap: 2rem;
+  margin-left: auto;
+  font-style: none;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-decoration-style: bold;
 }

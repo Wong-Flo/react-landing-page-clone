@@ -1,6 +1,7 @@
 import './allSection.css';
 import './index.module.css';
 import styles from './App.module.css';
+import { ReactComponent as Logo } from './svgFiles/Logo.svg';
 
 export default function App() {
   return (
@@ -8,12 +9,7 @@ export default function App() {
       <main>
         <div id="sectionOne">
           <header className={styles.header}>
-            <img
-              alt="Logo"
-              /* className="navBarItem"
-              src="https://limitless.email/wp-content/themes/limitless/img/img-logo-light.svg"
-              alt="limitless" */
-            />
+            <Logo />
             <nav>
               <ul>
                 <li className="navBarItem">
@@ -34,12 +30,19 @@ export default function App() {
               </ul>
             </nav>
           </header>
-          <section>
-            <h1>Unlimited email design. One low-priced monthly rate.</h1>
+          <section id="sectionText">
+            <h1>Unlimited email design. </h1>
+            <h2>One low-priced monthly rate.</h2>
             <p>
               With Limitless, you can get unlimited email design requests, and
               revisions for 70% less than the cost of a full-time designer.
             </p>
+            <div className="dots">
+              <span>•</span>
+              <span>•</span>
+              <span>•</span>
+              <span>•</span>
+            </div>
             <p>Sorry, all spots are sold out for September.</p>
             <button>Join the waitlist</button>
             <h2>Trusted by these innovative companies</h2>

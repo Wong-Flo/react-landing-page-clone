@@ -9,9 +9,18 @@
 :root {
   --color-background: rgba(209, 202, 241, 0.3);
   --color-text-section1: rgb(255, 255, 255);
-  --container-max: 1000px;
 }
 
 body {
   background: var(--color-background);
+}
+h1,
+h2 {
+  font-size: 34px;
+  display: block;
+  letter-spacing: -0.8px;
+  line-height: 40.8px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  padding-top: 20px;
 }
