@@ -1,6 +1,5 @@
 import './allSection.css';
 import style from './App.module.css';
-import styles from './index.module.css';
 import { ReactComponent as LogoArticulate } from './svgFiles/Articulate.svg';
 import { ReactComponent as LogoLimitless } from './svgFiles/Logo.svg';
 import { ReactComponent as LogoMailchimp } from './svgFiles/Mailchimp.svg';
