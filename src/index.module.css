@@ -7,18 +7,19 @@
 }
 
 :root {
-  --color-background: rgba(209, 202, 241, 0.3);
+  --color-background: rgb(165, 158, 158);
   --color-text-section1: rgb(255, 255, 255);
 }
 
 body {
-  background: var(--color-background);
+  background: rgb(159, 154, 154);
 }
 h1,
 h2 {
-  font-size: 34px;
+  font-size: 45px;
   display: block;
-  letter-spacing: -0.8px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
   line-height: 40.8px;
   margin-bottom: -20px;
   margin-top: -20px;

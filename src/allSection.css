@@ -1,5 +1,12 @@
 #sectionOne {
-  background: linear-gradient(165deg, blue, blueviolet, purple);
+  background: linear-gradient(
+    135deg,
+    rgb(4, 4, 173),
+    rgb(55, 5, 218),
+    rgb(176, 23, 207),
+    rgb(133, 3, 96),
+    rgb(193, 3, 145)
+  );
   padding: 2rem;
   width: 70rem;
   margin: 2.5%;
@@ -15,11 +22,92 @@
   padding: 2rem;
   gap: 2rem;
 }
-.dots {
+#dots {
   display: inline;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 45px;
   opacity: 0.2;
   line-height: 45px;
+  letter-spacing: 5px;
+}
+
+#description {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 40.8px;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  padding-top: 20px;
+  letter-spacing: -0.6px;
+}
+#descriptionUnderline {
+  background-image: url('./svgFiles/underline.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  font-size: 1.25rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 40.8px;
+  margin-top: -30px;
+  letter-spacing: -0.6px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 14px 24px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#slogan {
+  width: 450px;
+  height: 500px;
+  border-radius: 8px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+#sloganTitle {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sloganSubTitle {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    rgb(4, 4, 173),
+    rgb(55, 5, 218),
+    rgb(176, 23, 207),
+    rgb(133, 3, 96),
+    rgb(193, 3, 145)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sloganContext {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
